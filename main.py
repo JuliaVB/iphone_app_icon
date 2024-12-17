@@ -11,6 +11,7 @@ from graphs import plot_heatmap, plot_heatmap_perc, lines_chart
 # Define username and password
 USER_CREDENTIALS = {"admin": "password123", "user1": "securepass"}
 
+
 # Create a login form
 def login():
     st.title("Login")

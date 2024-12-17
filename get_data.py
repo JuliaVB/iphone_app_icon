@@ -20,6 +20,8 @@ conn = snowflake.connector.connect(
     schema=connection_params['schema']
 )
 
+
+
 @st.cache_data
 def generate_master_table(conn=conn):
     q1 = """

@@ -2,6 +2,8 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.colors as pc
 
+
+
 def plot_heatmap_perc(s, cohort_size):
 
   heatmap_data = s.pivot(index=f'FIRST_ORDER_{cohort_size.upper()}', columns=f'ORDER_SEQ', values='n_customers')
